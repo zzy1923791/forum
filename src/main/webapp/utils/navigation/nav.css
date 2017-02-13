@@ -1,0 +1,23 @@
+.navMenu{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center; /*元素垂直居中*/
+    justify-content: center; /*元素水平居中*/
+}
+.navNode{
+    margin: 0;
+    padding: 0;
+    display:inline;
+}
+.navImg{
+    margin: 6px;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
