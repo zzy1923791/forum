@@ -1,0 +1,26 @@
+.userBox{
+    width: 94%;
+    padding: 0 3% 0 3%;
+    align-items: center; /*元素垂直居中*/
+    justify-content: center; /*元素水平居中*/
+}
+.user{
+    float: left;
+    width: 20%;
+    margin: 4px 0 4px 0;
+}
+.userImg{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    margin: 2px 6px 2px 6px;
+}
+.userLabel{
+    width: 80%;
+    font-size: 0.8em;
+    margin: 2px 6.6666667% 2px 6.6666667%;
+    text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

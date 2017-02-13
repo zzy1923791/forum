@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="zh" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="zh" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="zh" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="zh" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/app.css">
+    <script src="/lib/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="/lib/angular.js"></script>
+    <script src="/lib/angular-ui-router.js"></script>
+</head>
+<body>
+    <div ng-include="'/utils/menu/menu.html'"></div>
+
+    <!-- 内容 -->
+    <div ui-view></div>
+
+
+    <script src="/app.js"></script>
+    <!--<script src="/HomeController.js"></script>-->
+    <script src="/utils/user/userCtrl.js"></script>
+    <script src="/modules/role/roleCtrl.js"></script>
+</body>
+</html>
