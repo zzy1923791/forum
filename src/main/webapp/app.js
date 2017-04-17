@@ -21,6 +21,7 @@
 angular.module('myApp',[
     'ui.router',
     'utils.user',
+    'utils.navgroup',
     'modules.role'
 ])
 
